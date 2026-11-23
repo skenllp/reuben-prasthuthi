@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reuben & Prastuthi — Wedding Invitation</title>
+
+    <!-- OG Meta Tags -->
+    <meta property="og:title" content="Reuben & Prastuthi Wedding Invitation">
+    <meta property="og:description" content="You are cordially invited to celebrate the marriage of Reuben Mathew with Prastuthi Elish on December 29, 2026 at St Mary's Residential Public School Auditorium, Thiruvalla.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/og-image.png">
+    <meta property="og:url" content="">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Reuben & Prastuthi Wedding Invitation">
+    <meta name="twitter:description" content="Dec 29, 2026 | 3:30 PM — St Mary's Auditorium, Thiruvalla">
+    <meta name="twitter:image" content="images/og-image.png">
+
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-cross"><i class="fas fa-cross"></i></div>
+        <div class="preloader-text">Reuben & Prastuthi</div>
+    </div>
+
+    <!-- Background Music -->
+    <audio id="bgMusic" loop preload="auto">
+        <source src="music.mp3" type="audio/mpeg">
+        <source src="Reuben.mp4" type="video/mp4">
+    </audio>
+
+    <!-- Music Toggle -->
+    <button class="music-toggle" id="musicToggle" title="Toggle Music" aria-label="Toggle background music">
+        <i class="fas fa-music" id="musicIcon"></i>
+    </button>
+
+    <!-- ═══════════ HERO ═══════════ -->
+    <section class="hero" id="hero">
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="Reuben.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-label">We Are Getting Married</p>
+            <h1 class="hero-names">
+                Reuben <span class="ampersand">&</span> Prastuthi
+            </h1>
+            <div class="hero-cross-divider">
+                <span class="cross"><i class="fas fa-cross"></i></span>
+            </div>
+            <p class="hero-tagline">"For where two or three gather in my name, there am I with them."</p>
+            <div class="hero-date-preview">DECEMBER 29, 2026</div>
+            <button class="open-btn" id="openBtn">
+                <span class="btn-icon"><i class="fas fa-envelope-open"></i></span> Open Invitation
+            </button>
+        </div>
+        <a href="#dateVenue" class="scroll-indicator" id="scrollIndicator" style="display:none;" aria-label="Scroll down"><i class="fas fa-chevron-down"></i></a>
+    </section>
+
+    <!-- ═══════════ DATE & VENUE ═══════════ -->
+    <section class="date-venue" id="dateVenue">
+        <div class="date-venue-grid">
+
+            <!-- Calendar -->
+            <div class="calendar-card reveal">
+                <div class="calendar-title">December 2026</div>
+                <div class="calendar-grid">
+                    <div class="cal-header">Mo</div>
+                    <div class="cal-header">Tu</div>
+                    <div class="cal-header">We</div>
+                    <div class="cal-header">Th</div>
+                    <div class="cal-header">Fr</div>
+                    <div class="cal-header">Sa</div>
+                    <div class="cal-header">Su</div>
+                    <!-- Row 1 -->
+                    <div class="cal-day empty"></div>
+                    <div class="cal-day">1</div>
+                    <div class="cal-day">2</div>
+                    <div class="cal-day">3</div>
+                    <div class="cal-day">4</div>
+                    <div class="cal-day">5</div>
+                    <div class="cal-day sunday">6</div>
+                    <!-- Row 2 -->
+                    <div class="cal-day">7</div>
+                    <div class="cal-day">8</div>
+                    <div class="cal-day">9</div>
+                    <div class="cal-day">10</div>
+                    <div class="cal-day">11</div>
+                    <div class="cal-day">12</div>
+                    <div class="cal-day sunday">13</div>
+                    <!-- Row 3 -->
+                    <div class="cal-day">14</div>
+                    <div class="cal-day">15</div>
+                    <div class="cal-day">16</div>
+                    <div class="cal-day">17</div>
+                    <div class="cal-day">18</div>
+                    <div class="cal-day">19</div>
+                    <div class="cal-day sunday">20</div>
+                    <!-- Row 4 -->
+                    <div class="cal-day">21</div>
+                    <div class="cal-day">22</div>
+                    <div class="cal-day">23</div>
+                    <div class="cal-day">24</div>
+                    <div class="cal-day">25</div>
+                    <div class="cal-day">26</div>
+                    <div class="cal-day sunday">27</div>
+                    <!-- Row 5 -->
+                    <div class="cal-day">28</div>
+                    <div class="cal-day wedding">
+                        <span class="cal-num">29</span>
+                        <span class="cal-heart"><i class="fas fa-heart"></i></span>
+                    </div>
+                    <div class="cal-day">30</div>
+                    <div class="cal-day">31</div>
+                    <div class="cal-day empty"></div>
+                    <div class="cal-day empty"></div>
+                    <div class="cal-day empty"></div>
+                </div>
+                <a class="add-to-cal-btn" id="addToCalBtn" href="#" onclick="addToCalendar(event)">
+                    <i class="far fa-calendar-plus"></i> Add to Calendar
+                </a>
+            </div>
+
+            <!-- Venue -->
+            <div class="venue-card reveal">
+                <div class="card-icon"><i class="fas fa-church"></i></div>
+                <div class="card-label">Venue</div>
+                <div class="venue-name">St Mary's Residential<br>Public School Auditorium</div>
+                <div class="venue-time">
+                    <span class="time-label">Ceremony at</span>
+                    3 : 30 PM
+                </div>
+                <div class="venue-address">Thiruvalla, Kerala<br>India</div>
+                <a href="https://maps.google.com/?q=St+Mary's+Residential+Public+School+Thiruvalla" target="_blank" rel="noopener" class="venue-map-btn">
+                    <i class="fas fa-map-marker-alt"></i> View on Map
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ═══════════ SCRIPTURE ═══════════ -->
+    <section class="scripture" id="scripture">
+        <div class="scripture-inner reveal">
+            <div class="scripture-icon"><i class="fas fa-bible"></i></div>
+            <p class="scripture-text">
+                "Two are better than one&hellip;<br>
+                for if they fall,<br>
+                one will lift up the other."
+            </p>
+            <div class="cross-divider"><span class="cross"><i class="fas fa-cross"></i></span></div>
+            <p class="scripture-ref">— Ecclesiastes 4 : 9–10</p>
+        </div>
+    </section>
+
+    <!-- ═══════════ INVITATION / FAMILY ═══════════ -->
+    <section class="invitation" id="invitation">
+        <div class="invitation-container reveal">
+            <div class="inv-header">
+                <span class="inv-preamble">With Grateful Hearts to God</span>
+                <div class="cross-divider"><span class="cross"><i class="fas fa-cross"></i></span></div>
+                <p class="inv-invite-text">
+                    We cordially invite you to join us in celebrating the holy matrimony of
+                </p>
+            </div>
+
+            <!-- Couple Spotlight -->
+            <div class="inv-couple">
+                <h2 class="couple-name groom">Reuben Mathew</h2>
+                <div class="couple-connector">
+                    <span class="line"></span>
+                    <span class="with-word">&</span>
+                    <span class="line"></span>
+                </div>
+                <h2 class="couple-name bride">Prastuthi Elish</h2>
+            </div>
+
+            <!-- Family Details Cards Grid -->
+            <div class="inv-families-grid">
+                <!-- Groom's Family -->
+                <div class="family-card">
+                    <span class="family-side-tag">Groom's Family</span>
+                    <h3 class="parents-name">K.M. Mathew (Shaji) &amp; Geetha</h3>
+                    <p class="family-residence">Kavilaiveetil House, Chengannur</p>
+                    <div class="family-divider"></div>
+                    <p class="family-ancestry">Grandson of Late Mr. &amp; Mrs K.M. Thampykutty<br><span class="family-branch">Paglomattom Family</span></p>
+                </div>
+
+                <!-- Bride's Family -->
+                <div class="family-card">
+                    <span class="family-side-tag">Bride's Family</span>
+                    <h3 class="parents-name">Late Elish Sontakki &amp; Shantha Elish</h3>
+                    <p class="family-residence">Bengaluru, Karnataka</p>
+                    <div class="family-divider"></div>
+                    <p class="family-blessing">With blessings &amp; love from family &amp; friends</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════ COUNTDOWN ═══════════ -->
+    <section class="countdown-section" id="countdown">
+        <div class="countdown-heading-wrap reveal">
+            <h2 class="countdown-label">Counting Down to the<br>Blessed Day</h2>
+            <div class="countdown-divider">
+                <span class="diamond"><i class="fas fa-diamond"></i></span>
+            </div>
+        </div>
+        <div class="countdown reveal">
+            <div class="countdown-item">
+                <div class="countdown-number" id="cdDays">00</div>
+                <div class="countdown-unit">Days</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="cdHours">00</div>
+                <div class="countdown-unit">Hours</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="cdMins">00</div>
+                <div class="countdown-unit">Minutes</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="cdSecs">00</div>
+                <div class="countdown-unit">Seconds</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════ RSVP ═══════════ -->
+    <!-- <section class="rsvp-section" id="rsvp">
+        <div class="rsvp-inner reveal">
+            <h2 class="section-title">RSVP</h2>
+            <p class="rsvp-text">We would be honoured by your presence.<br>Kindly let us know if you can make it.</p>
+            <form class="rsvp-form" id="rsvpForm" onsubmit="handleRSVP(event)">
+                <input type="text" placeholder="Your Name" required>
+                <input type="tel" placeholder="Phone Number">
+                <select>
+                    <option value="" disabled selected>Will you attend?</option>
+                    <option value="yes">Joyfully Accept</option>
+                    <option value="no">Regretfully Decline</option>
+                </select>
+                <input type="number" placeholder="Number of Guests" min="1" max="10">
+                <textarea placeholder="Wishes for the couple (optional)"></textarea>
+                <button type="submit" class="rsvp-btn">Send RSVP</button>
+            </form>
+            <p id="rsvpMsg" style="margin-top:1rem; color:var(--gold-dark); display:none; font-style:italic;"></p>
+        </div>
+    </section> -->
+
+    <!-- ═══════════ BEST WISHES ═══════════ -->
+    <section class="wishes reveal">
+        <div class="cross-divider"><span class="cross"><i class="fas fa-cross"></i></span></div>
+        <div class="wishes-label">Best Wishes</div>
+        <div class="wishes-from">Sachin &amp; Soumya</div>
+        <div class="cross-divider"><span class="cross"><i class="fas fa-heart"></i></span></div>
+    </section>
+
+    <!-- ═══════════ FOOTER ═══════════ -->
+    <footer>
+        <div class="footer-names">R &amp; P</div>
+        <div>December 29, 2026 &nbsp;•&nbsp; Thiruvalla</div>
+        <div style="margin-top:0.5rem; opacity:0.6; font-size:0.8rem;">
+            #ReubenWedsPrastuthi
+        </div>
+    </footer>
+
+    <!-- External Script -->
+    <script src="script.js"></script>
+
+</body>
+</html>
