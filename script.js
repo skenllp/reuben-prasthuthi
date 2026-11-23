@@ -123,7 +123,7 @@ function addToCalendar(e) {
     const start = '20261229T100000Z';
     const end = '20261229T143000Z';
     const location = 'St Mary\'s Residential Public School Auditorium, Thiruvalla, Kerala, India';
-    const details = 'You are cordially invited to celebrate the marriage of Reuben Mathew with Prastuthi Elish.';
+    const details = 'You are cordially invited to celebrate the marriage of Reuben Mathew with Prastuthi Elish.\n\nLocation: https://share.google/3j4LulNNMpPdLNFTY';
     const url = 'https://calendar.google.com/calendar/render?action=TEMPLATE'
         + '&text=' + encodeURIComponent(title)
         + '&dates=' + start + '/' + end
