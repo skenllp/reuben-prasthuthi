@@ -2,7 +2,7 @@
 window.addEventListener('load', () => {
     setTimeout(() => {
         document.getElementById('preloader').classList.add('hidden');
-    }, 1800);
+    }, 2800);
 });
 
 // ─── Cover Open ───
